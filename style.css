@@ -70,3 +70,14 @@ p{
   color:hsl(0, 0%, 20%);
   background-color: hsl(75, 94%, 57%);
 }
+
+@media all and (max-width:375px){
+  .container{
+    padding:20px;
+  }
+
+  .account-class{
+    width:260px;
+    
+  }
+}
