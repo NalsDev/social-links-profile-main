@@ -8,14 +8,21 @@ body{
   background-color: hsl(0, 0%, 8%);
   color:white;
   text-align: center;
+}
+
+main{
   width:100%;
   height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .container{
   background-color:hsl(0, 0%, 12%);
   display:inline-block;
-  padding:40px;
+  padding:30px 40px;
+  border-radius:10px;
 }
 
 p{
@@ -30,11 +37,18 @@ p{
 
 .name-class{
   font-weight:700;
+  margin-top:25px;
+  margin-bottom:10px;
 }
 
 .place-class{
   font-weight:600;
   color: hsl(75, 94%, 57%);
+  margin-bottom:25px;
+}
+
+.info-class{
+  margin-bottom:20px;
 }
 
 .account-class p{
@@ -46,5 +60,13 @@ p{
   background-color:hsl(0, 0%, 20%);
   margin-bottom:15px;
   padding:15px;
-  display:inline-block;
+  width:275px;
+  border-radius:8px;
+  cursor:pointer;
+  transition:background-color 0.15ms, color 0.15s;
+}
+
+.account-class:hover{
+  color:hsl(0, 0%, 20%);
+  background-color: hsl(75, 94%, 57%);
 }
